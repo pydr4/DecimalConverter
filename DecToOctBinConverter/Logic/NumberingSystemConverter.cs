@@ -21,7 +21,7 @@
             int digits = 1;
 
 
-            while (number > baseValue)
+            while (number >= baseValue)
             {
                 long reminder = (long)(number % baseValue);
 
